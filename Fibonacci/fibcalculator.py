@@ -12,7 +12,7 @@ def fib(n):
         binetApprox = power(goldenRatio, n) / (5 ** 0.5)
         if n % 2 == 0:
             return int(binetApprox)
-        return int(binetApprox + 1)
+        return int(1 + binetApprox)
 
 
 def main():
